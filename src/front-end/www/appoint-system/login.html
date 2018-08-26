@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>南京大学-IT侠预约系统</title>
+  <link rel="icon" href="./img/favicon.ico">
+  <!-- meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.css">
+  <!-- Font-Awesome CSS -->
+  <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+  <!-- local CSS -->
+  <link href="css/login.css" rel="stylesheet">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">NJU IT 侠预约系统</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto nav" role="tablist">
+          <li class="nav-item">
+            <a id="customerTab" class="nav-link active" data-toggle="tab" role="tab" href="#customer"><i class="fa fa-bars"></i>预约维修</a>
+          </li>
+          <li class="nav-item">
+            <a id="adminTab" class="nav-link" data-toggle="tab" role="tab" href="#admin"><i class="fa fa-bars"></i>后台管理</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav pull-right">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-home"></i>关于我们</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-heart"></i>爱心捐赠</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header container">
+    <div id="customerHead">
+      <h1 class="h2">预约系统</h1>
+      <hr class="rainbow">
+    </div>
+    <div id="adminHead">
+      <h1 class="h2">登录</h1>
+      <hr class="rainbow">
+    </div>
+  </header>
+
+  <div class="text-center container signin">
+    <form class="form-signin">
+      <img alt="NJU IT侠" src="http://118.89.144.139:8080/static/images/logo.jpg" class="mb-4">
+
+      <div class="tab-content">
+
+        <div class="tab-pane fade show active" id="customer" role="tabpanel">
+          <label for="inputPhone" class="sr-only">Phone</label>
+          <input type="text" id="inputPhone" class="form-control" placeholder="Phone">
+          <button type"button" class="btn btn-primary btn-block" onclick="customerLogin()" aria-discribedby="submitHelp">Appointment</button>
+          <small id="submitHelp" class="form-text text-muted">
+          <i class="fa fa-info-circle"></i>
+          使用手机号直接预约，无需注册
+          </small>
+        </div>
+
+        <div class="tab-pane fade" id="admin" role="tabpanel">
+          <label for="inputAccount" class="sr-only">Account</label>
+          <input type="text" id="inputAccount" class="form-control" placeholder="Account">
+          <label for="inputPassword" class="sr-only">Password</label>
+          <input type="text" id="inputPassword" class="form-control" placeholder="Password">
+          <button type"button" class="btn btn-primary btn-block" onclick="adminLogin()" aria-discribedby="submitHelp">Login</button>
+        </div>
+
+      </div>
+
+    </form>
+  </div>
+
+  <footer class="footer container">
+    <hr class="rainbow">
+    <span class="text-muted">Place footer content here.</span>
+  </footer>
+
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+  <script src="https://cdn.bootcss.com/popper.js/1.14.3/umd/popper.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/4.1.1/js/bootstrap.js"></script>
+  <!-- Vue JavaScript -->
+  <script src="https://cdn.bootcss.com/vue/2.5.17-beta.0/vue.js"></script>
+  <!-- local JavaScript -->
+  <script src="./js/login.js"></script>
+
+</body>
+
+</html>

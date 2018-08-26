@@ -1,0 +1,13 @@
+# nodejs
+node_modules/
+npm-debug.log
+
+# back-end
+src/back-end/java-server
+src/back-end/py-server
+docs/back-end/java-server
+docs/back-end/py-server
+
+# front-end
+src/front-end/www/component
+src/front-end/www/routes

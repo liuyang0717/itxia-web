@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+    background-color: #F0F0F0;
+}
+
+hr, p, a {
+  margin: 0;
+}
+
+hr.rainbow {
+  height: 3px;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
+}
+
+.signin {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 420px;
+  background-color: white;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+
+.form-signin input[id="inputPhone"] {
+  margin-bottom: 10px;
+}
+
+.form-signin input[id="inputAccount"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[id="inputPassword"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: white;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  line-height: 60px;
+  background-color: white;
+}

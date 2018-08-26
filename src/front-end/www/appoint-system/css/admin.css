@@ -1,0 +1,67 @@
+body {
+  font-size: 1rem;
+}
+
+/*
+ * Content
+ */
+
+main {
+  padding-top: 56px;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar {
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+.navbar #navbar-content {
+  text-align: center;
+}
+
+.logo {
+  width: 100%;
+  max-width: 150px;
+  text-align: center;
+}
+
+.logo a {
+  margin: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 80px;
+  width: 100%;
+  max-width: 150px;
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  padding-top: .5rem;
+}
+
+.sidebar .logo {
+  padding: 15px 0;
+}
+
+.sidebar .nav-link {
+  color: grey;
+  text-align: center;
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}

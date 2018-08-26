@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    background-color: #F0F0F0;
+}
+
+hr, p{
+  margin: 0;
+}
+
+hr.rainbow {
+  height: 3px;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple);
+}
+
+.form-appointment {
+  background-color: white;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  background-color: white;
+}
+
+.service-term {
+  position: relative;
+  width: 100%;
+  background-color: white;
+}
+
+.history-content {
+  position: relative;
+  width: 100%;
+  background-color: white;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  line-height: 60px;
+  background-color: white;
+}
